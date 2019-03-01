@@ -1,0 +1,30 @@
+PODS:
+  - mopub-ios-sdk (5.5.0):
+    - mopub-ios-sdk/MoPubSDK (= 5.5.0)
+  - mopub-ios-sdk/Avid (5.5.0):
+    - mopub-ios-sdk/Core
+  - mopub-ios-sdk/Core (5.5.0)
+  - mopub-ios-sdk/Moat (5.5.0):
+    - mopub-ios-sdk/Core
+  - mopub-ios-sdk/MoPubSDK (5.5.0):
+    - mopub-ios-sdk/Avid
+    - mopub-ios-sdk/Core
+    - mopub-ios-sdk/Moat
+  - YumiMediationSDK (3.4.2)
+
+DEPENDENCIES:
+  - mopub-ios-sdk
+  - YumiMediationSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - mopub-ios-sdk
+    - YumiMediationSDK
+
+SPEC CHECKSUMS:
+  mopub-ios-sdk: 937b82dd76d8a396ba6a22ae005a1e24c61bf28b
+  YumiMediationSDK: e3ac59f58314516c7cb4839e9eea24abf3f950b4
+
+PODFILE CHECKSUM: 6ad3084b8725c86e008d7738d520f61a35ef330f
+
+COCOAPODS: 1.5.3
