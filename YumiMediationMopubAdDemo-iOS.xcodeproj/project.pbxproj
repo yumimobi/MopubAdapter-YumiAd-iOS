@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DE948882228DB86002EE0CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948872228DB86002EE0CE /* AppDelegate.m */; };
+		6DE9488B2228DB86002EE0CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9488A2228DB86002EE0CE /* ViewController.m */; };
+		6DE9488E2228DB86002EE0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9488C2228DB86002EE0CE /* Main.storyboard */; };
+		6DE948912228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9488F2228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld */; };
+		6DE948932228DB88002EE0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE948922228DB88002EE0CE /* Assets.xcassets */; };
+		6DE948962228DB88002EE0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE948942228DB88002EE0CE /* LaunchScreen.storyboard */; };
+		6DE948992228DB88002EE0CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948982228DB88002EE0CE /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6DE948832228DB86002EE0CE /* YumiMediationMopubAdDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YumiMediationMopubAdDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE948862228DB86002EE0CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DE948872228DB86002EE0CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DE948892228DB86002EE0CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DE9488A2228DB86002EE0CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DE9488D2228DB86002EE0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DE948902228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YumiMediationMopubAdDemo_iOS.xcdatamodel; sourceTree = "<group>"; };
+		6DE948922228DB88002EE0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DE948952228DB88002EE0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DE948972228DB88002EE0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE948982228DB88002EE0CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DE948802228DB86002EE0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DE9487A2228DB86002EE0CE = {
+			isa = PBXGroup;
+			children = (
+				6DE948852228DB86002EE0CE /* YumiMediationMopubAdDemo-iOS */,
+				6DE948842228DB86002EE0CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DE948842228DB86002EE0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DE948832228DB86002EE0CE /* YumiMediationMopubAdDemo-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DE948852228DB86002EE0CE /* YumiMediationMopubAdDemo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6DE948862228DB86002EE0CE /* AppDelegate.h */,
+				6DE948872228DB86002EE0CE /* AppDelegate.m */,
+				6DE948892228DB86002EE0CE /* ViewController.h */,
+				6DE9488A2228DB86002EE0CE /* ViewController.m */,
+				6DE9488C2228DB86002EE0CE /* Main.storyboard */,
+				6DE948922228DB88002EE0CE /* Assets.xcassets */,
+				6DE948942228DB88002EE0CE /* LaunchScreen.storyboard */,
+				6DE948972228DB88002EE0CE /* Info.plist */,
+				6DE948982228DB88002EE0CE /* main.m */,
+				6DE9488F2228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld */,
+			);
+			path = "YumiMediationMopubAdDemo-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DE948822228DB86002EE0CE /* YumiMediationMopubAdDemo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE9489C2228DB88002EE0CE /* Build configuration list for PBXNativeTarget "YumiMediationMopubAdDemo-iOS" */;
+			buildPhases = (
+				6DE9487F2228DB86002EE0CE /* Sources */,
+				6DE948802228DB86002EE0CE /* Frameworks */,
+				6DE948812228DB86002EE0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YumiMediationMopubAdDemo-iOS";
+			productName = "YumiMediationMopubAdDemo-iOS";
+			productReference = 6DE948832228DB86002EE0CE /* YumiMediationMopubAdDemo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DE9487B2228DB86002EE0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = MichaelTang;
+				TargetAttributes = {
+					6DE948822228DB86002EE0CE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6DE9487E2228DB86002EE0CE /* Build configuration list for PBXProject "YumiMediationMopubAdDemo-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DE9487A2228DB86002EE0CE;
+			productRefGroup = 6DE948842228DB86002EE0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DE948822228DB86002EE0CE /* YumiMediationMopubAdDemo-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DE948812228DB86002EE0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE948962228DB88002EE0CE /* LaunchScreen.storyboard in Resources */,
+				6DE948932228DB88002EE0CE /* Assets.xcassets in Resources */,
+				6DE9488E2228DB86002EE0CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DE9487F2228DB86002EE0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE948912228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld in Sources */,
+				6DE9488B2228DB86002EE0CE /* ViewController.m in Sources */,
+				6DE948992228DB88002EE0CE /* main.m in Sources */,
+				6DE948882228DB86002EE0CE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DE9488C2228DB86002EE0CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DE9488D2228DB86002EE0CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DE948942228DB88002EE0CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DE948952228DB88002EE0CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DE9489A2228DB88002EE0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DE9489B2228DB88002EE0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DE9489D2228DB88002EE0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VG25A6M88T;
+				INFOPLIST_FILE = "YumiMediationMopubAdDemo-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tfeng.YumiMediationMopubAdDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DE9489E2228DB88002EE0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VG25A6M88T;
+				INFOPLIST_FILE = "YumiMediationMopubAdDemo-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tfeng.YumiMediationMopubAdDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DE9487E2228DB86002EE0CE /* Build configuration list for PBXProject "YumiMediationMopubAdDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE9489A2228DB88002EE0CE /* Debug */,
+				6DE9489B2228DB88002EE0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DE9489C2228DB88002EE0CE /* Build configuration list for PBXNativeTarget "YumiMediationMopubAdDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE9489D2228DB88002EE0CE /* Debug */,
+				6DE9489E2228DB88002EE0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6DE9488F2228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DE948902228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodel */,
+			);
+			currentVersion = 6DE948902228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodel */;
+			path = YumiMediationMopubAdDemo_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6DE9487B2228DB86002EE0CE /* Project object */;
+}
