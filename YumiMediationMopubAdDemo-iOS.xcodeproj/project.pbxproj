@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6DE948882228DB86002EE0CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948872228DB86002EE0CE /* AppDelegate.m */; };
-		6DE9488B2228DB86002EE0CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9488A2228DB86002EE0CE /* ViewController.m */; };
+		35571EEB41A4C304786F3F9B /* libPods-YumiMediationMopubAdDemo-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA65DD39D5B57D71BF5289C /* libPods-YumiMediationMopubAdDemo-iOS.a */; };
 		6DE9488E2228DB86002EE0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9488C2228DB86002EE0CE /* Main.storyboard */; };
 		6DE948912228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9488F2228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld */; };
 		6DE948932228DB88002EE0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE948922228DB88002EE0CE /* Assets.xcassets */; };
 		6DE948962228DB88002EE0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE948942228DB88002EE0CE /* LaunchScreen.storyboard */; };
 		6DE948992228DB88002EE0CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948982228DB88002EE0CE /* main.m */; };
+		6DE948A42228DFB8002EE0CE /* MPYUMIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948A22228DFB8002EE0CE /* MPYUMIAppDelegate.m */; };
+		6DE948A52228DFB8002EE0CE /* MPYUMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948A32228DFB8002EE0CE /* MPYUMIViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C87FA13B0EC1F1FE7A090E8 /* Pods-YumiMediationMopubAdDemo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumiMediationMopubAdDemo-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		6DE948832228DB86002EE0CE /* YumiMediationMopubAdDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YumiMediationMopubAdDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DE948862228DB86002EE0CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6DE948872228DB86002EE0CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6DE948892228DB86002EE0CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6DE9488A2228DB86002EE0CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6DE9488D2228DB86002EE0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DE948902228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YumiMediationMopubAdDemo_iOS.xcdatamodel; sourceTree = "<group>"; };
 		6DE948922228DB88002EE0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DE948952228DB88002EE0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DE948972228DB88002EE0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DE948982228DB88002EE0CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DE948A02228DFB8002EE0CE /* MPYUMIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPYUMIAppDelegate.h; sourceTree = "<group>"; };
+		6DE948A12228DFB8002EE0CE /* MPYUMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPYUMIViewController.h; sourceTree = "<group>"; };
+		6DE948A22228DFB8002EE0CE /* MPYUMIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPYUMIAppDelegate.m; sourceTree = "<group>"; };
+		6DE948A32228DFB8002EE0CE /* MPYUMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPYUMIViewController.m; sourceTree = "<group>"; };
+		BEAA85BAFA315B39C87D7EEC /* Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EBA65DD39D5B57D71BF5289C /* libPods-YumiMediationMopubAdDemo-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YumiMediationMopubAdDemo-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35571EEB41A4C304786F3F9B /* libPods-YumiMediationMopubAdDemo-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57812063135642DBEC78445E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEAA85BAFA315B39C87D7EEC /* Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig */,
+				3C87FA13B0EC1F1FE7A090E8 /* Pods-YumiMediationMopubAdDemo-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6DE9487A2228DB86002EE0CE = {
 			isa = PBXGroup;
 			children = (
 				6DE948852228DB86002EE0CE /* YumiMediationMopubAdDemo-iOS */,
 				6DE948842228DB86002EE0CE /* Products */,
+				57812063135642DBEC78445E /* Pods */,
+				CE3D9B2D00D1927057F33271 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +76,7 @@
 		6DE948852228DB86002EE0CE /* YumiMediationMopubAdDemo-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6DE948862228DB86002EE0CE /* AppDelegate.h */,
-				6DE948872228DB86002EE0CE /* AppDelegate.m */,
-				6DE948892228DB86002EE0CE /* ViewController.h */,
-				6DE9488A2228DB86002EE0CE /* ViewController.m */,
+				6DE9489F2228DFB8002EE0CE /* Systems */,
 				6DE9488C2228DB86002EE0CE /* Main.storyboard */,
 				6DE948922228DB88002EE0CE /* Assets.xcassets */,
 				6DE948942228DB88002EE0CE /* LaunchScreen.storyboard */,
@@ -74,6 +87,25 @@
 			path = "YumiMediationMopubAdDemo-iOS";
 			sourceTree = "<group>";
 		};
+		6DE9489F2228DFB8002EE0CE /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				6DE948A02228DFB8002EE0CE /* MPYUMIAppDelegate.h */,
+				6DE948A12228DFB8002EE0CE /* MPYUMIViewController.h */,
+				6DE948A22228DFB8002EE0CE /* MPYUMIAppDelegate.m */,
+				6DE948A32228DFB8002EE0CE /* MPYUMIViewController.m */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		CE3D9B2D00D1927057F33271 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBA65DD39D5B57D71BF5289C /* libPods-YumiMediationMopubAdDemo-iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DE9489C2228DB88002EE0CE /* Build configuration list for PBXNativeTarget "YumiMediationMopubAdDemo-iOS" */;
 			buildPhases = (
+				D32F09ECB3CCA909FBD98F48 /* [CP] Check Pods Manifest.lock */,
 				6DE9487F2228DB86002EE0CE /* Sources */,
 				6DE948802228DB86002EE0CE /* Frameworks */,
 				6DE948812228DB86002EE0CE /* Resources */,
+				28AD3185B73DA7573098B2D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +134,7 @@
 		6DE9487B2228DB86002EE0CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MPYUMI;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = MichaelTang;
 				TargetAttributes = {
@@ -139,15 +174,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28AD3185B73DA7573098B2D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources.sh",
+				"${PODS_ROOT}/YumiMediationSDK/Resources/YumiMediationSDK.bundle",
+				"${PODS_ROOT}/YumiMediationSDK/Resources/YumiAdsSDK.bundle",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Internal/Common/MPAdBrowserController.xib",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseBtn.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseBtn@2x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseBtn@3x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseButtonX.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseButtonX@2x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseButtonX@3x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCountdownTimer.html",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPDAAIcon.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPDAAIcon@2x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPDAAIcon@3x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPMutedBtn.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPMutedBtn@2x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPMutedBtn@3x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPPlayBtn.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPPlayBtn@2x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPPlayBtn@3x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPUnmutedBtn.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPUnmutedBtn@2x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPUnmutedBtn@3x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MRAID.bundle",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPAdapters.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YumiMediationSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YumiAdsSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPAdBrowserController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseBtn.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseBtn@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseBtn@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButtonX.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButtonX@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButtonX@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCountdownTimer.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPDAAIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPDAAIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPDAAIcon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPMutedBtn.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPMutedBtn@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPMutedBtn@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPPlayBtn.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPPlayBtn@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPPlayBtn@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPUnmutedBtn.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPUnmutedBtn@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPUnmutedBtn@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MRAID.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPAdapters.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D32F09ECB3CCA909FBD98F48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YumiMediationMopubAdDemo-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DE9487F2228DB86002EE0CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6DE948912228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld in Sources */,
-				6DE9488B2228DB86002EE0CE /* ViewController.m in Sources */,
+				6DE948A52228DFB8002EE0CE /* MPYUMIViewController.m in Sources */,
 				6DE948992228DB88002EE0CE /* main.m in Sources */,
-				6DE948882228DB86002EE0CE /* AppDelegate.m in Sources */,
+				6DE948A42228DFB8002EE0CE /* MPYUMIAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,16 +415,18 @@
 		};
 		6DE9489D2228DB88002EE0CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEAA85BAFA315B39C87D7EEC /* Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VG25A6M88T;
 				INFOPLIST_FILE = "YumiMediationMopubAdDemo-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tfeng.YumiMediationMopubAdDemo-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zplay.YumiMediationMopubAdDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,16 +434,18 @@
 		};
 		6DE9489E2228DB88002EE0CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C87FA13B0EC1F1FE7A090E8 /* Pods-YumiMediationMopubAdDemo-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VG25A6M88T;
 				INFOPLIST_FILE = "YumiMediationMopubAdDemo-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tfeng.YumiMediationMopubAdDemo-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zplay.YumiMediationMopubAdDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

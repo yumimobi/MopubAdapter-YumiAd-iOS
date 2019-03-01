@@ -1,18 +1,18 @@
 //
-//  AppDelegate.m
+//  MPYUMIAppDelegate.m
 //  YumiMediationMopubAdDemo-iOS
 //
 //  Created by Michael Tang on 2019/3/1.
 //  Copyright © 2019 MichaelTang. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "MPYUMIAppDelegate.h"
 
-@interface AppDelegate ()
+@interface MPYUMIAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation MPYUMIAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

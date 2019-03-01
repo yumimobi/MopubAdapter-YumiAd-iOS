@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MPYUMIAppDelegate.h
 //  YumiMediationMopubAdDemo-iOS
 //
 //  Created by Michael Tang on 2019/3/1.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface MPYUMIAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

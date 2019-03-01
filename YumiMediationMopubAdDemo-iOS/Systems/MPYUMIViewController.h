@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MPYUMIViewController.h
 //  YumiMediationMopubAdDemo-iOS
 //
 //  Created by Michael Tang on 2019/3/1.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MPYUMIViewController : UIViewController
 
 
 @end
