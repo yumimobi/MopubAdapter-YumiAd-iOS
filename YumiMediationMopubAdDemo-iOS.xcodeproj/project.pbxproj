@@ -13,8 +13,14 @@
 		6DE948932228DB88002EE0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE948922228DB88002EE0CE /* Assets.xcassets */; };
 		6DE948962228DB88002EE0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE948942228DB88002EE0CE /* LaunchScreen.storyboard */; };
 		6DE948992228DB88002EE0CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948982228DB88002EE0CE /* main.m */; };
-		6DE948A42228DFB8002EE0CE /* MPYUMIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948A22228DFB8002EE0CE /* MPYUMIAppDelegate.m */; };
-		6DE948A52228DFB8002EE0CE /* MPYUMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948A32228DFB8002EE0CE /* MPYUMIViewController.m */; };
+		6DE948AA2228E19B002EE0CE /* MPYUMIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948A62228E19B002EE0CE /* MPYUMIAppDelegate.m */; };
+		6DE948AB2228E19B002EE0CE /* MPYUMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948A92228E19B002EE0CE /* MPYUMIViewController.m */; };
+		6DE948B2222CB6A7002EE0CE /* MPYUMIBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948B0222CB6A7002EE0CE /* MPYUMIBannerViewController.m */; };
+		6DE948B7222CC03A002EE0CE /* MPYUMIBannerCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948B6222CC03A002EE0CE /* MPYUMIBannerCustomEvent.m */; };
+		6DE948BA222CCD31002EE0CE /* MPYUMIInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948B9222CCD31002EE0CE /* MPYUMIInterstitialViewController.m */; };
+		6DE948BD222CD120002EE0CE /* MPYUMIInterstitialCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948BC222CD120002EE0CE /* MPYUMIInterstitialCustomEvent.m */; };
+		6DE948C0222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948BF222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.m */; };
+		6DE948C3222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948C2222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +32,22 @@
 		6DE948952228DB88002EE0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DE948972228DB88002EE0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DE948982228DB88002EE0CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6DE948A02228DFB8002EE0CE /* MPYUMIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPYUMIAppDelegate.h; sourceTree = "<group>"; };
-		6DE948A12228DFB8002EE0CE /* MPYUMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPYUMIViewController.h; sourceTree = "<group>"; };
-		6DE948A22228DFB8002EE0CE /* MPYUMIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPYUMIAppDelegate.m; sourceTree = "<group>"; };
-		6DE948A32228DFB8002EE0CE /* MPYUMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPYUMIViewController.m; sourceTree = "<group>"; };
+		6DE948A62228E19B002EE0CE /* MPYUMIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPYUMIAppDelegate.m; sourceTree = "<group>"; };
+		6DE948A72228E19B002EE0CE /* MPYUMIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPYUMIAppDelegate.h; sourceTree = "<group>"; };
+		6DE948A82228E19B002EE0CE /* MPYUMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPYUMIViewController.h; sourceTree = "<group>"; };
+		6DE948A92228E19B002EE0CE /* MPYUMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPYUMIViewController.m; sourceTree = "<group>"; };
+		6DE948AF222CB6A7002EE0CE /* MPYUMIBannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPYUMIBannerViewController.h; sourceTree = "<group>"; };
+		6DE948B0222CB6A7002EE0CE /* MPYUMIBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIBannerViewController.m; sourceTree = "<group>"; };
+		6DE948B5222CC03A002EE0CE /* MPYUMIBannerCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPYUMIBannerCustomEvent.h; sourceTree = "<group>"; };
+		6DE948B6222CC03A002EE0CE /* MPYUMIBannerCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIBannerCustomEvent.m; sourceTree = "<group>"; };
+		6DE948B8222CCD31002EE0CE /* MPYUMIInterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPYUMIInterstitialViewController.h; sourceTree = "<group>"; };
+		6DE948B9222CCD31002EE0CE /* MPYUMIInterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIInterstitialViewController.m; sourceTree = "<group>"; };
+		6DE948BB222CD120002EE0CE /* MPYUMIInterstitialCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPYUMIInterstitialCustomEvent.h; sourceTree = "<group>"; };
+		6DE948BC222CD120002EE0CE /* MPYUMIInterstitialCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIInterstitialCustomEvent.m; sourceTree = "<group>"; };
+		6DE948BE222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPYUMIRewardedVideoViewController.h; sourceTree = "<group>"; };
+		6DE948BF222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIRewardedVideoViewController.m; sourceTree = "<group>"; };
+		6DE948C1222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPYUMIRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
+		6DE948C2222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
 		BEAA85BAFA315B39C87D7EEC /* Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EBA65DD39D5B57D71BF5289C /* libPods-YumiMediationMopubAdDemo-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YumiMediationMopubAdDemo-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -76,6 +94,9 @@
 		6DE948852228DB86002EE0CE /* YumiMediationMopubAdDemo-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				6DE948AE2228E33D002EE0CE /* Reward Video */,
+				6DE948AD2228E331002EE0CE /* Interstitial */,
+				6DE948AC2228E327002EE0CE /* Banner */,
 				6DE9489F2228DFB8002EE0CE /* Systems */,
 				6DE9488C2228DB86002EE0CE /* Main.storyboard */,
 				6DE948922228DB88002EE0CE /* Assets.xcassets */,
@@ -90,12 +111,45 @@
 		6DE9489F2228DFB8002EE0CE /* Systems */ = {
 			isa = PBXGroup;
 			children = (
-				6DE948A02228DFB8002EE0CE /* MPYUMIAppDelegate.h */,
-				6DE948A12228DFB8002EE0CE /* MPYUMIViewController.h */,
-				6DE948A22228DFB8002EE0CE /* MPYUMIAppDelegate.m */,
-				6DE948A32228DFB8002EE0CE /* MPYUMIViewController.m */,
+				6DE948A72228E19B002EE0CE /* MPYUMIAppDelegate.h */,
+				6DE948A62228E19B002EE0CE /* MPYUMIAppDelegate.m */,
+				6DE948A82228E19B002EE0CE /* MPYUMIViewController.h */,
+				6DE948A92228E19B002EE0CE /* MPYUMIViewController.m */,
 			);
 			path = Systems;
+			sourceTree = "<group>";
+		};
+		6DE948AC2228E327002EE0CE /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				6DE948AF222CB6A7002EE0CE /* MPYUMIBannerViewController.h */,
+				6DE948B0222CB6A7002EE0CE /* MPYUMIBannerViewController.m */,
+				6DE948B5222CC03A002EE0CE /* MPYUMIBannerCustomEvent.h */,
+				6DE948B6222CC03A002EE0CE /* MPYUMIBannerCustomEvent.m */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		6DE948AD2228E331002EE0CE /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				6DE948B8222CCD31002EE0CE /* MPYUMIInterstitialViewController.h */,
+				6DE948B9222CCD31002EE0CE /* MPYUMIInterstitialViewController.m */,
+				6DE948BB222CD120002EE0CE /* MPYUMIInterstitialCustomEvent.h */,
+				6DE948BC222CD120002EE0CE /* MPYUMIInterstitialCustomEvent.m */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		6DE948AE2228E33D002EE0CE /* Reward Video */ = {
+			isa = PBXGroup;
+			children = (
+				6DE948BE222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.h */,
+				6DE948BF222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.m */,
+				6DE948C1222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.h */,
+				6DE948C2222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.m */,
+			);
+			path = "Reward Video";
 			sourceTree = "<group>";
 		};
 		CE3D9B2D00D1927057F33271 /* Frameworks */ = {
@@ -272,10 +326,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE948C3222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.m in Sources */,
+				6DE948B7222CC03A002EE0CE /* MPYUMIBannerCustomEvent.m in Sources */,
+				6DE948C0222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.m in Sources */,
 				6DE948912228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld in Sources */,
-				6DE948A52228DFB8002EE0CE /* MPYUMIViewController.m in Sources */,
+				6DE948AB2228E19B002EE0CE /* MPYUMIViewController.m in Sources */,
+				6DE948B2222CB6A7002EE0CE /* MPYUMIBannerViewController.m in Sources */,
+				6DE948BD222CD120002EE0CE /* MPYUMIInterstitialCustomEvent.m in Sources */,
+				6DE948BA222CCD31002EE0CE /* MPYUMIInterstitialViewController.m in Sources */,
 				6DE948992228DB88002EE0CE /* main.m in Sources */,
-				6DE948A42228DFB8002EE0CE /* MPYUMIAppDelegate.m in Sources */,
+				6DE948AA2228E19B002EE0CE /* MPYUMIAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

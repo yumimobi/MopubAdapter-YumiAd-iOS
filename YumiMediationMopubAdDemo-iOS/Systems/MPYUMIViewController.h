@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MPYUMIViewController : UIViewController
+@interface MPYUMIViewController : UITableViewController
 
 
 @end
