@@ -36,6 +36,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="2fd-sw-nhM" kind="push" id="inX-9x-KJB"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="XsP-vU-znv" style="IBUITableViewCellStyleDefault" id="FTk-y1-gtI">
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -83,7 +86,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mv8-YD-ysY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="164" y="-259"/>
+            <point key="canvasLocation" x="-49" y="-295"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dWR-Jd-j23">
@@ -100,6 +103,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aPi-Mi-tPa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-135" y="-142"/>
+        </scene>
+        <!--Banner-->
+        <scene sceneID="BLj-8B-Oes">
+            <objects>
+                <viewController id="2fd-sw-nhM" customClass="MPYUMIBannerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Slu-mD-3YJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ORT-Ck-VHY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uca-EE-b6r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hi-iO-Uih">
+                                <rect key="frame" x="20" y="108" width="120" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="Xqa-uf-LWX"/>
+                                    <constraint firstAttribute="height" constant="30" id="zbz-xU-dpq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Load banner"/>
+                                <connections>
+                                    <action selector="handleRequest:" destination="2fd-sw-nhM" eventType="touchUpInside" id="5oM-BI-RVf"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1q1-uh-Ih1">
+                                <rect key="frame" x="12" y="188" width="351" height="279"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="1q1-uh-Ih1" secondAttribute="bottom" constant="200" id="2bP-oM-eC7"/>
+                            <constraint firstItem="1hi-iO-Uih" firstAttribute="leading" secondItem="uca-EE-b6r" secondAttribute="leading" constant="20" id="6ni-mn-c2c"/>
+                            <constraint firstItem="1q1-uh-Ih1" firstAttribute="leading" secondItem="uca-EE-b6r" secondAttribute="leading" constant="12" id="FC2-rY-eFe"/>
+                            <constraint firstAttribute="trailing" secondItem="1q1-uh-Ih1" secondAttribute="trailing" constant="12" id="Z6R-6K-e9x"/>
+                            <constraint firstItem="1q1-uh-Ih1" firstAttribute="top" secondItem="1hi-iO-Uih" secondAttribute="bottom" constant="50" id="Zff-Yk-Ogn"/>
+                            <constraint firstItem="1hi-iO-Uih" firstAttribute="top" secondItem="Slu-mD-3YJ" secondAttribute="bottom" constant="44" id="kbN-qy-skT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Banner" id="tuK-yX-q3t"/>
+                    <connections>
+                        <outlet property="logTextView" destination="1q1-uh-Ih1" id="avM-ev-bNc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uX1-et-nRc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200.80000000000001" y="-195.6521739130435"/>
         </scene>
     </scenes>
 </document>

@@ -7,6 +7,7 @@
 //
 
 #import "MPYUMIAppDelegate.h"
+#import "MoPub.h"
 
 @interface MPYUMIAppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+     [[MoPub sharedInstance] initializeSdkWithConfiguration:nil completion:nil];
+    
     return YES;
 }
 
