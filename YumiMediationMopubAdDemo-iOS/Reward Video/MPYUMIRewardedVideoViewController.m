@@ -9,7 +9,7 @@
 #import "MPYUMIRewardedVideoViewController.h"
 #import "MPRewardedVideo.h"
 
-static NSString *adUnitId = @"8f000bd5e00246de9c789eed39ff6096";
+static NSString *adUnitId = @"d37d2f16340a427db95abacc457ddaab";
 
 @interface MPYUMIRewardedVideoViewController ()<MPRewardedVideoDelegate>
 
@@ -74,5 +74,7 @@ static NSString *adUnitId = @"8f000bd5e00246de9c789eed39ff6096";
 - (void)rewardedVideoAdWillLeaveApplicationForAdUnitID:(NSString *)adUnitID{
     [self addLog:@"rewardedVideoAdWillLeaveApplicationForAdUnitID"];
 }
-
+- (void)rewardedVideoAdShouldRewardForAdUnitID:(NSString *)adUnitID reward:(MPRewardedVideoReward *)reward{
+    [self addLog:@"rewardedVideoAdShouldRewardForAdUnitID"];
+}
 @end
