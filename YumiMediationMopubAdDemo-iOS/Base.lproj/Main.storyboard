@@ -40,15 +40,15 @@
                                             <segue destination="2fd-sw-nhM" kind="push" id="inX-9x-KJB"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="XsP-vU-znv" style="IBUITableViewCellStyleDefault" id="FTk-y1-gtI">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="XsP-vU-znv" style="IBUITableViewCellStyleDefault" id="FTk-y1-gtI">
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FTk-y1-gtI" id="Qlc-CS-15d">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Interstitial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XsP-vU-znv">
-                                                    <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="324" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -56,6 +56,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ZTj-G1-pdR" kind="push" id="y10-ex-pHT"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="9kZ-Vy-8AC" style="IBUITableViewCellStyleDefault" id="zAu-ws-teU">
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
@@ -153,6 +156,67 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uX1-et-nRc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="200.80000000000001" y="-195.6521739130435"/>
+        </scene>
+        <!--Interstitial-->
+        <scene sceneID="zAx-V9-IAP">
+            <objects>
+                <viewController id="ZTj-G1-pdR" customClass="MPYUMIInterstitialViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N9A-i7-Cz4"/>
+                        <viewControllerLayoutGuide type="bottom" id="cH8-VF-PK6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tu2-ga-AOf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chM-W8-4IC">
+                                <rect key="frame" x="20" y="108" width="140" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="Ujh-Mw-T5D"/>
+                                    <constraint firstAttribute="height" constant="30" id="i38-ud-Rvh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Request interstitial"/>
+                                <connections>
+                                    <action selector="handleRequestInterstitial:" destination="ZTj-G1-pdR" eventType="touchUpInside" id="mOb-pz-9pG"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ML3-3f-iaE">
+                                <rect key="frame" x="12" y="188" width="351" height="279"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBY-Qi-oop">
+                                <rect key="frame" x="215" y="108" width="140" height="30"/>
+                                <state key="normal" title="Present Interstitial"/>
+                                <connections>
+                                    <action selector="handlePresentInterstitial:" destination="ZTj-G1-pdR" eventType="touchUpInside" id="hqI-8A-buW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="chM-W8-4IC" firstAttribute="leading" secondItem="Tu2-ga-AOf" secondAttribute="leading" constant="20" id="DI4-9e-zjK"/>
+                            <constraint firstItem="ML3-3f-iaE" firstAttribute="leading" secondItem="Tu2-ga-AOf" secondAttribute="leading" constant="12" id="Dbc-fV-aOc"/>
+                            <constraint firstItem="pBY-Qi-oop" firstAttribute="height" secondItem="chM-W8-4IC" secondAttribute="height" id="Gea-LK-xqe"/>
+                            <constraint firstItem="pBY-Qi-oop" firstAttribute="centerY" secondItem="chM-W8-4IC" secondAttribute="centerY" id="N7D-dn-lho"/>
+                            <constraint firstAttribute="bottom" secondItem="ML3-3f-iaE" secondAttribute="bottom" constant="200" id="NHE-Ow-3Gg"/>
+                            <constraint firstItem="ML3-3f-iaE" firstAttribute="top" secondItem="chM-W8-4IC" secondAttribute="bottom" constant="50" id="ULx-IJ-ro7"/>
+                            <constraint firstAttribute="trailing" secondItem="pBY-Qi-oop" secondAttribute="trailing" constant="20" id="dN3-Vz-zci"/>
+                            <constraint firstItem="pBY-Qi-oop" firstAttribute="width" secondItem="chM-W8-4IC" secondAttribute="width" id="eG5-7i-mr2"/>
+                            <constraint firstItem="chM-W8-4IC" firstAttribute="top" secondItem="N9A-i7-Cz4" secondAttribute="bottom" constant="44" id="tre-Ub-ZPr"/>
+                            <constraint firstAttribute="trailing" secondItem="ML3-3f-iaE" secondAttribute="trailing" constant="12" id="x5f-Sw-PAa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Interstitial" id="MBD-le-I2I"/>
+                    <connections>
+                        <outlet property="logTextView" destination="ML3-3f-iaE" id="E88-kk-aN6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="igd-vi-8pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="289" y="-143"/>
         </scene>
     </scenes>
 </document>

@@ -17,6 +17,7 @@
 		6DE948AB2228E19B002EE0CE /* MPYUMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948A92228E19B002EE0CE /* MPYUMIViewController.m */; };
 		6DE948B2222CB6A7002EE0CE /* MPYUMIBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948B0222CB6A7002EE0CE /* MPYUMIBannerViewController.m */; };
 		6DE948B7222CC03A002EE0CE /* MPYUMIBannerCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948B6222CC03A002EE0CE /* MPYUMIBannerCustomEvent.m */; };
+		6DE948BA222CCD31002EE0CE /* MPYUMIInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948B9222CCD31002EE0CE /* MPYUMIInterstitialViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		6DE948B0222CB6A7002EE0CE /* MPYUMIBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIBannerViewController.m; sourceTree = "<group>"; };
 		6DE948B5222CC03A002EE0CE /* MPYUMIBannerCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPYUMIBannerCustomEvent.h; sourceTree = "<group>"; };
 		6DE948B6222CC03A002EE0CE /* MPYUMIBannerCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIBannerCustomEvent.m; sourceTree = "<group>"; };
+		6DE948B8222CCD31002EE0CE /* MPYUMIInterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPYUMIInterstitialViewController.h; sourceTree = "<group>"; };
+		6DE948B9222CCD31002EE0CE /* MPYUMIInterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIInterstitialViewController.m; sourceTree = "<group>"; };
 		BEAA85BAFA315B39C87D7EEC /* Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EBA65DD39D5B57D71BF5289C /* libPods-YumiMediationMopubAdDemo-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YumiMediationMopubAdDemo-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,6 +124,8 @@
 		6DE948AD2228E331002EE0CE /* Interstitial */ = {
 			isa = PBXGroup;
 			children = (
+				6DE948B8222CCD31002EE0CE /* MPYUMIInterstitialViewController.h */,
+				6DE948B9222CCD31002EE0CE /* MPYUMIInterstitialViewController.m */,
 			);
 			path = Interstitial;
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 				6DE948912228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld in Sources */,
 				6DE948AB2228E19B002EE0CE /* MPYUMIViewController.m in Sources */,
 				6DE948B2222CB6A7002EE0CE /* MPYUMIBannerViewController.m in Sources */,
+				6DE948BA222CCD31002EE0CE /* MPYUMIInterstitialViewController.m in Sources */,
 				6DE948992228DB88002EE0CE /* main.m in Sources */,
 				6DE948AA2228E19B002EE0CE /* MPYUMIAppDelegate.m in Sources */,
 			);
