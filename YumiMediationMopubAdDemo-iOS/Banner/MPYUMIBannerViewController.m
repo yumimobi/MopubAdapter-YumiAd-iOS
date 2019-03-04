@@ -40,11 +40,11 @@
 
 - (IBAction)handleRequest:(UIButton *)sender {
     if (!self.adView) {
-        self.adView = [[MPAdView alloc] initWithAdUnitId:@"0ac59b0996d947309c33f59d6676399f"
+        self.adView = [[MPAdView alloc] initWithAdUnitId:@"d9a95ca52ff84244af8398592ecf1623"
                                                     size:MOPUB_BANNER_SIZE];
         self.adView.delegate = self;
         self.adView.frame = CGRectMake((self.view.bounds.size.width - MOPUB_BANNER_SIZE.width) / 2,
-                                       self.view.bounds.size.height - MOPUB_BANNER_SIZE.height,
+                                       self.view.bounds.size.height - MOPUB_BANNER_SIZE.height - 34,
                                        MOPUB_BANNER_SIZE.width, MOPUB_BANNER_SIZE.height);
         [self.view addSubview:self.adView];
     }
@@ -61,13 +61,14 @@
 - (void)adViewDidFailToLoadAd:(MPAdView *)view{
     [self addLog:@"adViewDidFailToLoadAd"];
 }
-- (void)willLeaveApplicationFromAd:(MPAdView *)view{
-    [self addLog:@"willLeaveApplicationFromAd"];
-}
+/** @name Detecting When a User Interacts With the Ad View */
 - (void)willPresentModalViewForAd:(MPAdView *)view{
     [self addLog:@"willPresentModalViewForAd"];
 }
 
+- (void)willLeaveApplicationFromAd:(MPAdView *)view{
+    [self addLog:@"willLeaveApplicationFromAd"];
+}
 - (void)didDismissModalViewForAd:(MPAdView *)view{
     [self addLog:@"didDismissModalViewForAd"];
 }
