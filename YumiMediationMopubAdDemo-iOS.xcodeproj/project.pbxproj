@@ -20,6 +20,7 @@
 		6DE948BA222CCD31002EE0CE /* MPYUMIInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948B9222CCD31002EE0CE /* MPYUMIInterstitialViewController.m */; };
 		6DE948BD222CD120002EE0CE /* MPYUMIInterstitialCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948BC222CD120002EE0CE /* MPYUMIInterstitialCustomEvent.m */; };
 		6DE948C0222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948BF222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.m */; };
+		6DE948C3222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE948C2222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		6DE948BC222CD120002EE0CE /* MPYUMIInterstitialCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIInterstitialCustomEvent.m; sourceTree = "<group>"; };
 		6DE948BE222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPYUMIRewardedVideoViewController.h; sourceTree = "<group>"; };
 		6DE948BF222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIRewardedVideoViewController.m; sourceTree = "<group>"; };
+		6DE948C1222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPYUMIRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
+		6DE948C2222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
 		BEAA85BAFA315B39C87D7EEC /* Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EBA65DD39D5B57D71BF5289C /* libPods-YumiMediationMopubAdDemo-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YumiMediationMopubAdDemo-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,6 +146,8 @@
 			children = (
 				6DE948BE222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.h */,
 				6DE948BF222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.m */,
+				6DE948C1222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.h */,
+				6DE948C2222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.m */,
 			);
 			path = "Reward Video";
 			sourceTree = "<group>";
@@ -321,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE948C3222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.m in Sources */,
 				6DE948B7222CC03A002EE0CE /* MPYUMIBannerCustomEvent.m in Sources */,
 				6DE948C0222CDCD7002EE0CE /* MPYUMIRewardedVideoViewController.m in Sources */,
 				6DE948912228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld in Sources */,
