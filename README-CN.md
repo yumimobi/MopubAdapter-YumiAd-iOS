@@ -45,21 +45,21 @@ YumiMediationSDK，详见参考文档的手动集成方式 [YumiMediationSDK文�
 
 ### 2.1. Banner adapter
 
-[MPYUMIBannerCustomEvent.h](https://github.com/zplayads/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Banner/MPYUMIBannerCustomEvent.h)
+[MPYUMIBannerCustomEvent.h](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Banner/MPYUMIBannerCustomEvent.h)
 
-[MPYUMIBannerCustomEvent.m](https://github.com/zplayads/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Banner/MPYUMIBannerCustomEvent.m)
+[MPYUMIBannerCustomEvent.m](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Banner/MPYUMIBannerCustomEvent.m)
 
 ### 2.2 Interstitial adapter
 
-[MPYUMIInterstitialCustomEvent.h](https://github.com/zplayads/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Interstitial/MPYUMIInterstitialCustomEvent.h)
+[MPYUMIInterstitialCustomEvent.h](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Interstitial/MPYUMIInterstitialCustomEvent.h)
 
-[MPYUMIInterstitialCustomEvent.m](https://github.com/zplayads/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Interstitial/MPYUMIInterstitialCustomEvent.m)
+[MPYUMIInterstitialCustomEvent.m](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Interstitial/MPYUMIInterstitialCustomEvent.m)
 
 ### 2.3 Rewarded Video adapter
 
-[MPYUMIRewardedVideoCustomEvent.h](https://github.com/zplayads/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Reward%20Video/MPYUMIRewardedVideoCustomEvent.h)
+[MPYUMIRewardedVideoCustomEvent.h](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Reward%20Video/MPYUMIRewardedVideoCustomEvent.m)
 
-[MPYUMIRewardedVideoCustomEvent.m](https://github.com/zplayads/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Reward%20Video/MPYUMIRewardedVideoCustomEvent.m)
+[MPYUMIRewardedVideoCustomEvent.m](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Reward%20Video/MPYUMIRewardedVideoCustomEvent.h)
 
 ## 3. 在 [MoPub平台](https://app.mopub.com/apps) 为 Yumi 配置广告位
 
@@ -118,7 +118,7 @@ YumiMediationSDK，详见参考文档的手动集成方式 [YumiMediationSDK文�
 
 ## 7. Demo 示例
 
-点击查看[Demo](https://github.com/zplayads/YumiMediationMopubAdDemo-iOS)
+点击查看[Demo](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS)
 
 > 注意：执行demo前，请在终端命令行进入工程根目录下执行
 >
