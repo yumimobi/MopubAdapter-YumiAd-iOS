@@ -147,7 +147,7 @@ Add the following files to the project:
 > ```
 
 
-## 4. Add YUMIMOBI to the new Network platform on the [MoPub platform] (https://app.mopub.com/networks)
+## 4. Add YUMIMOBI to the new Network platform on the [MoPub platform](https://app.mopub.com/networks)
 
 ### 4.1 Go to the Networks page and click the 'New network' button.
 
