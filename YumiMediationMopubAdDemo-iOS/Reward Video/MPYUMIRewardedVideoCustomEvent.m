@@ -45,9 +45,7 @@ static NSUInteger refreshMaxCount = 6;
 }
 
 - (void)presentRewardedVideoFromViewController:(UIViewController *)viewController{
-    if ([self.rewardedVideo isReady]) {
-        [self.rewardedVideo presentFromRootViewController:viewController];
-    }
+    [self.rewardedVideo presentFromRootViewController:viewController];
 }
 - (BOOL)enableAutomaticImpressionAndClickTracking{
     return YES;
@@ -89,6 +87,8 @@ static NSUInteger refreshMaxCount = 6;
     if ([self.delegate respondsToSelector:@selector(rewardedVideoDidLoadAdForCustomEvent:)]) {
         [self.delegate rewardedVideoDidLoadAdForCustomEvent:self];
     }
+    // if isready cancel timer
+    [self cancelTimer];
 }
 
 - (void)notifyRewardedVideoLoadFail{
@@ -102,8 +102,11 @@ static NSUInteger refreshMaxCount = 6;
 }
 
 - (void)cancelTimer{
-
-    dispatch_source_cancel(self.timer);
+    if (self.timer) {
+        dispatch_source_cancel(self.timer);
+        self.timer = nil;
+    }
+    
 }
 
 #pragma mark: YumiMediationVideoDelegate
