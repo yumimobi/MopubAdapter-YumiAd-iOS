@@ -73,12 +73,12 @@ Note: You are available to use the following ID when testing(not charge). Please
 |Splash   | pwmf5r42 |
 
 
-## 3. ADD MoPub SDK and YumiMediationSDK，as below：
+## 3. Add MoPub SDK and YumiMediationSDK，as below：
 
 * This section aggregates for the Mopub platform YumiMediationSDK Adapter 
 * Mopub of Integration Guide  [Mopub iOS SDK ](https://developers.mopub.com/publishers/ios/getting-started/)
   
-### 3.1 ADD MoPub SDK and YumiMediationSDK
+### 3.1 Add MoPub SDK and YumiMediationSDK
 
 #### 3.1.1  CocoaPods
 
