@@ -26,6 +26,7 @@
     self.bannerView = [[YumiMediationBannerView alloc] initWithPlacementID:placementId channelID:channelId versionID:versionId position:YumiMediationBannerPositionBottom rootViewController:[self.delegate viewControllerForPresentingModalView]];
     
     [self.bannerView disableAutoRefresh];
+    self.bannerView.isIntegrated = YES;
     self.bannerView.delegate = self;
     
     [self.bannerView loadAd:NO];
