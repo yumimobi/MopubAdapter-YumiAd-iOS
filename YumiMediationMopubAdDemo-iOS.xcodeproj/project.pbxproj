@@ -480,9 +480,9 @@
 			baseConfigurationReference = BEAA85BAFA315B39C87D7EEC /* Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = L5UE3EGW93;
+				DEVELOPMENT_TEAM = VG25A6M88T;
 				INFOPLIST_FILE = "YumiMediationMopubAdDemo-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -491,7 +491,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zplay.YumiMediationMopubAdDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Devzplay*";
+				PROVISIONING_PROFILE_SPECIFIER = wanghaiyingDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
