@@ -237,9 +237,10 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources.sh",
 				"${PODS_ROOT}/YumiMediationSDK/Resources/YumiMediationSDK.bundle",
 				"${PODS_ROOT}/YumiMediationSDK/Resources/YumiAdsSDK.bundle",
+				"${PODS_ROOT}/YumiMediationSDK/Resources/ZplayMuteListener.bundle",
 				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Internal/Common/MPAdBrowserController.xib",
 				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseBtn.png",
 				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseBtn@2x.png",
@@ -269,6 +270,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YumiMediationSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YumiAdsSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZplayMuteListener.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPAdBrowserController.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseBtn.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseBtn@2x.png",
@@ -294,7 +296,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D32F09ECB3CCA909FBD98F48 /* [CP] Check Pods Manifest.lock */ = {
