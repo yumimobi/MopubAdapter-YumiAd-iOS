@@ -1,16 +1,16 @@
 PODS:
-  - mopub-ios-sdk (5.6.0):
-    - mopub-ios-sdk/MoPubSDK (= 5.6.0)
-  - mopub-ios-sdk/Avid (5.6.0):
+  - mopub-ios-sdk (5.7.0):
+    - mopub-ios-sdk/MoPubSDK (= 5.7.0)
+  - mopub-ios-sdk/Avid (5.7.0):
     - mopub-ios-sdk/Core
-  - mopub-ios-sdk/Core (5.6.0)
-  - mopub-ios-sdk/Moat (5.6.0):
+  - mopub-ios-sdk/Core (5.7.0)
+  - mopub-ios-sdk/Moat (5.7.0):
     - mopub-ios-sdk/Core
-  - mopub-ios-sdk/MoPubSDK (5.6.0):
+  - mopub-ios-sdk/MoPubSDK (5.7.0):
     - mopub-ios-sdk/Avid
     - mopub-ios-sdk/Core
     - mopub-ios-sdk/Moat
-  - YumiMediationSDK (3.6.3)
+  - YumiMediationSDK (3.6.4)
 
 DEPENDENCIES:
   - mopub-ios-sdk
@@ -22,8 +22,8 @@ SPEC REPOS:
     - YumiMediationSDK
 
 SPEC CHECKSUMS:
-  mopub-ios-sdk: 2b13b29ed6d1b06f7e52dd0c0a01e7adb749c1a7
-  YumiMediationSDK: 3fd181d3be6611a6c60e6972c39822d2f8618e47
+  mopub-ios-sdk: e5074eb28a332957df8ebc1b26d42c691a5d7ed2
+  YumiMediationSDK: e2b9b6d30ea624f86fbf570d775a549f7b050a59
 
 PODFILE CHECKSUM: 6ad3084b8725c86e008d7738d520f61a35ef330f
 
