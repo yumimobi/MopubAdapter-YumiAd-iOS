@@ -10,21 +10,22 @@ PODS:
     - mopub-ios-sdk/Avid
     - mopub-ios-sdk/Core
     - mopub-ios-sdk/Moat
-  - YumiMediationSDK (4.1.0)
+  - YumiAdSDK (1.0.0)
 
 DEPENDENCIES:
   - mopub-ios-sdk
-  - YumiMediationSDK
+  - YumiAdSDK (= 1.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - mopub-ios-sdk
-    - YumiMediationSDK
+  https://github.com/yumimobi/Specs.git:
+    - YumiAdSDK
 
 SPEC CHECKSUMS:
   mopub-ios-sdk: b1167e8c86afaccd37d484828c4ad2c3c1656a32
-  YumiMediationSDK: 40ba5d486d78b4a1236d8fa6ad43683823527e7a
+  YumiAdSDK: 309270cef4fd249de7aa60cad7ca74d8747e73db
 
-PODFILE CHECKSUM: 6ad3084b8725c86e008d7738d520f61a35ef330f
+PODFILE CHECKSUM: c4d708cb2e98f1af168c6f2b01384fe80c28e4d7
 
 COCOAPODS: 1.6.1
