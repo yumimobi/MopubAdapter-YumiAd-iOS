@@ -7,7 +7,7 @@
 //
 
 #import "MPYUMIBannerCustomEvent.h"
-#import <YumiMediationSDK/YumiMediationBannerView.h>
+#import <YumiAdSDK//YumiMediationBannerView.h>
 
 @interface MPYUMIBannerCustomEvent() <YumiMediationBannerViewDelegate>
 

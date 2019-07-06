@@ -7,10 +7,7 @@
 //
 
 #import "MPYUMIRewardedVideoCustomEvent.h"
-#import <YumiMediationSDK/YumiMediationVideo.h>
-
-static NSUInteger refreshTimedDration = 10;
-static NSUInteger refreshMaxCount = 6;
+#import <YumiAdSDK/YumiMediationVideo.h>
 
 @interface MPYUMIRewardedVideoCustomEvent() <YumiMediationVideoDelegate>
 
@@ -27,6 +24,9 @@ static NSUInteger refreshMaxCount = 6;
     
     self.rewardedVideo = [YumiMediationVideo sharedInstance];
     self.rewardedVideo.delegate = self;
+    // set coreLogicInstance state is init
+    [[self.rewardedVideo valueForKey:@"coreLogicInstance"] setValue:@(0) forKey:@"state"];
+    
     [self.rewardedVideo loadAdWithPlacementID:placementId channelID:channelId versionID:versionId];
 }
 

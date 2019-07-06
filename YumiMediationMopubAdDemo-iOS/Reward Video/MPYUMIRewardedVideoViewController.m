@@ -56,7 +56,7 @@ static NSString *adUnitId = @"d37d2f16340a427db95abacc457ddaab";
 }
 
 - (void)rewardedVideoAdDidFailToLoadForAdUnitID:(NSString *)adUnitID error:(NSError *)error{
-    [self addLog:@"rewardedVideoAdDidFailToLoadForAdUnitID"];
+    [self addLog:[NSString stringWithFormat:@"rewardedVideoAdDidFailToLoadForAdUnitID error: %@",error.localizedDescription]];
 }
 
 - (void)rewardedVideoAdDidAppearForAdUnitID:(NSString *)adUnitID{

@@ -9,11 +9,11 @@
     - [2.2 Fill in the relevant information and click the "Save" button to enter the Create Add Slot page.](#22-fill-in-the-relevant-information-and-click-the-%22save%22-button-to-enter-the-create-add-slot-page)
     - [2.3 After the app is created successfully, click Save or on the App Management page, click the app name to enter the Slots Page and click Add Slot, create ad Slot ( Placement ) ID](#23-after-the-app-is-created-successfully-click-save-or-on-the-app-management-page-click-the-app-name-to-enter-the-slots-page-and-click-add-slot-create-ad-slot--placement--id)
     - [2.4 Fill in the information about the add Slot （Placement）, click the "Save successfully" button, return to the ad Slots page, and get the Slot ( Placement ) ID.](#24-fill-in-the-information-about-the-add-slot-placement-click-the-%22save-successfully%22-button-return-to-the-ad-slots-page-and-get-the-slot--placement--id)
-  - [3. Add MoPub SDK and YumiMediationSDK，as below：](#3-add-mopub-sdk-and-yumimediationsdkas-below)
-    - [3.1 Add MoPub SDK and YumiMediationSDK](#31-add-mopub-sdk-and-yumimediationsdk)
+  - [3. Add MoPub SDK and YumiAdSDK,as below：](#3-add-mopub-sdk-and-yumiadsdk,-as-below)
+    - [3.1 Add MoPub SDK and YumiAdSDK](#31-add-mopub-sdk-and-yumiadsdk)
       - [3.1.1 CocoaPods](#311-cocoapods)
       - [3.1.2 Manually Integrating SDK](#312-manually-integrating-sdk)
-    - [3.2 Add YumiMediationSDK adapter](#32-add-yumimediationsdk-adapter)
+    - [3.2 Add YumiAdSDK adapter](#32-add-yumiadsdk-adapter)
       - [3.2.1 Banner adapter](#321-banner-adapter)
       - [3.2.2 Interstitial adapter](#322-interstitial-adapter)
       - [3.2.3 Rewarded Video adapter](#323-rewarded-video-adapter)
@@ -73,12 +73,12 @@ Note: You are available to use the following ID when testing(not charge). Please
 |Splash   | pwmf5r42 |
 
 
-## 3. Add MoPub SDK and YumiMediationSDK，as below：
+## 3. Add MoPub SDK and YumiAdSDK, as below：
 
-* This section aggregates for the Mopub platform YumiMediationSDK Adapter 
+* This section aggregates for the Mopub platform YumiAdSDK Adapter 
 * Mopub of Integration Guide  [Mopub iOS SDK ](https://developers.mopub.com/publishers/ios/getting-started/)
   
-### 3.1 Add MoPub SDK and YumiMediationSDK
+### 3.1 Add MoPub SDK and YumiAdSDK
 
 #### 3.1.1  CocoaPods
 
@@ -92,8 +92,8 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'MyApp' do
- 	pod 'mopub-ios-sdk'
-    pod 'YumiMediationSDK'
+    pod 'mopub-ios-sdk'
+    pod 'YumiAdSDK'
 end 
 ```
 
@@ -110,9 +110,9 @@ After the installation is complete, open the .xcworkspace file in the project ro
 
 Mopub，Manually of Integration Guide  [Mopub Integration Guide ](https://developers.mopub.com/publishers/ios/getting-started/#step-1-download-the-mopub-ios-sdk) 
 
-YumiMediationSDK，Manually of Integration Guide [YumiMediationSDK Integration Guide](https://github.com/yumimobi/YumiMediationSDKDemo-iOS/blob/master/normalDocuments/YumiMediationSDK%20for%20iOS(zh-cn).md#%E6%8E%A5%E5%85%A5%E6%96%B9%E5%BC%8F)
+YumiAdSDK，Manually of Integration Guide [YumiAdSDK Integration Guide](https://github.com/yumimobi/YumiAdSDKDemo-iOS/blob/master/normalDocuments/YumiAdSDK%20for%20iOS(zh-cn).md#%E6%8E%A5%E5%85%A5%E6%96%B9%E5%BC%8F)
 
-### 3.2  Add YumiMediationSDK adapter
+### 3.2  Add YumiAdSDK adapter
 
 Add the following files to the project:
 
@@ -169,7 +169,7 @@ Example banner:
 
      MPYUMIBannerCustomEvent
 
-Note: Fill in the name of the Adpter class corresponding to the Add YumiMediationSDK adapter.
+Note: Fill in the name of the Adpter class corresponding to the Add YumiAdSDK adapter.
 
 - b. Please add the slot （Placement） ID requested by YUMIMOBI advertising platform at the location of Custom event class data. The value of channel Id & version Id is not required.
   

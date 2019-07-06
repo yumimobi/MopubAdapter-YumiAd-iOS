@@ -58,8 +58,9 @@
 - (void)adViewDidLoadAd:(MPAdView *)view{
     [self addLog:@"adViewDidLoadAd"];
 }
-- (void)adViewDidFailToLoadAd:(MPAdView *)view{
-    [self addLog:@"adViewDidFailToLoadAd"];
+- (void)adView:(MPAdView *)view didFailToLoadAdWithError:(NSError *)error{
+    
+    [self addLog:[NSString stringWithFormat:@"adViewDidFailToLoadAd error: %@",error.localizedDescription]];
 }
 /** @name Detecting When a User Interacts With the Ad View */
 - (void)willPresentModalViewForAd:(MPAdView *)view{
