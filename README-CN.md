@@ -10,7 +10,7 @@
     - [2.3 应用创建成功后，点击保存或者在应用列表页，点击应用名称进入广告位列表页点击新建广告位，创建广告位 ID](#23-%E5%BA%94%E7%94%A8%E5%88%9B%E5%BB%BA%E6%88%90%E5%8A%9F%E5%90%8E%E7%82%B9%E5%87%BB%E4%BF%9D%E5%AD%98%E6%88%96%E8%80%85%E5%9C%A8%E5%BA%94%E7%94%A8%E5%88%97%E8%A1%A8%E9%A1%B5%E7%82%B9%E5%87%BB%E5%BA%94%E7%94%A8%E5%90%8D%E7%A7%B0%E8%BF%9B%E5%85%A5%E5%B9%BF%E5%91%8A%E4%BD%8D%E5%88%97%E8%A1%A8%E9%A1%B5%E7%82%B9%E5%87%BB%E6%96%B0%E5%BB%BA%E5%B9%BF%E5%91%8A%E4%BD%8D%E5%88%9B%E5%BB%BA%E5%B9%BF%E5%91%8A%E4%BD%8D-id)
     - [2.4 填写广告位相关信息，点击“创建成功”按钮，返回广告位管理列表页，在广告位管理列表页，获取广告位的 ID](#24-%E5%A1%AB%E5%86%99%E5%B9%BF%E5%91%8A%E4%BD%8D%E7%9B%B8%E5%85%B3%E4%BF%A1%E6%81%AF%E7%82%B9%E5%87%BB%E5%88%9B%E5%BB%BA%E6%88%90%E5%8A%9F%E6%8C%89%E9%92%AE%E8%BF%94%E5%9B%9E%E5%B9%BF%E5%91%8A%E4%BD%8D%E7%AE%A1%E7%90%86%E5%88%97%E8%A1%A8%E9%A1%B5%E5%9C%A8%E5%B9%BF%E5%91%8A%E4%BD%8D%E7%AE%A1%E7%90%86%E5%88%97%E8%A1%A8%E9%A1%B5%E8%8E%B7%E5%8F%96%E5%B9%BF%E5%91%8A%E4%BD%8D%E7%9A%84-id)
   - [3. 添加 MoPub SDK 和 YUMIMOBI SDK，步骤如下：](#3-%E6%B7%BB%E5%8A%A0-mopub-sdk-%E5%92%8C-yumimobi-sdk%E6%AD%A5%E9%AA%A4%E5%A6%82%E4%B8%8B)
-    - [3.1 添加 MoPub SDK 和 YumiMediationSDK](#31-%E6%B7%BB%E5%8A%A0-mopub-sdk-%E5%92%8C-yumimediationsdk)
+    - [3.1 添加 MoPub SDK 和 YumiAdSDK](#31-%E6%B7%BB%E5%8A%A0-mopub-sdk-%E5%92%8C-yumiadsdk)
       - [3.1.1 使用 CocoaPods 集成](#311-%E4%BD%BF%E7%94%A8-cocoapods-%E9%9B%86%E6%88%90)
       - [3.1.2 手动集成 SDK](#312-%E6%89%8B%E5%8A%A8%E9%9B%86%E6%88%90-sdk)
     - [3.2 添加 Yumi adapter](#32-%E6%B7%BB%E5%8A%A0-yumi-adapter)
@@ -75,10 +75,10 @@ b. 若您未在Google Play或者APP STORE上线，或发布在非Google Play渠�
 
 ## 3. 添加 MoPub SDK 和 YUMIMOBI SDK，步骤如下：
 
-* 此部分面向 Mopub 平台聚合 YumiMediationSDK  Adapter
+* 此部分面向 Mopub 平台聚合 YumiAdSDK  Adapter
 * Mopub 广告接入请参考 [Mopub iOS SDK 接入文档](https://developers.mopub.com/publishers/ios/getting-started/)
   
-### 3.1 添加 MoPub SDK 和 YumiMediationSDK
+### 3.1 添加 MoPub SDK 和 YumiAdSDK
 
 #### 3.1.1 使用 CocoaPods 集成
 
@@ -92,8 +92,8 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'MyApp' do
- 	pod 'mopub-ios-sdk'
-    pod 'YumiMediationSDK'
+    pod 'mopub-ios-sdk'
+    pod 'YumiAdSDK'
 end 
 ```
 
@@ -110,7 +110,7 @@ $ pod install
 
 Mopub，详见参考文档的手动集成方式  [Mopub文档](https://developers.mopub.com/publishers/ios/getting-started/#step-1-download-the-mopub-ios-sdk) 
 
-YumiMediationSDK，详见参考文档的手动集成方式 [YumiMediationSDK文档](https://github.com/yumimobi/YumiMediationSDKDemo-iOS/blob/master/normalDocuments/YumiMediationSDK%20for%20iOS(zh-cn).md#%E6%8E%A5%E5%85%A5%E6%96%B9%E5%BC%8F)
+YumiAdSDK，详见参考文档的手动集成方式 [YumiAdSDK文档](https://github.com/yumimobi/YumiAdSDKDemo-iOS/blob/master/normalDocuments/YumiAdSDK%20for%20iOS(zh-cn).md#%E6%8E%A5%E5%85%A5%E6%96%B9%E5%BC%8F)
 
 ### 3.2  添加 Yumi adapter
 
