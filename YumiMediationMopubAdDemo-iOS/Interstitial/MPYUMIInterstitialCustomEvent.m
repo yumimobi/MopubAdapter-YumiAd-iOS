@@ -7,7 +7,7 @@
 //
 
 #import "MPYUMIInterstitialCustomEvent.h"
-#import <YumiAdSDK//YumiMediationInterstitial.h>
+#import <YumiAdSDK/YumiMediationInterstitial.h>
 
 @interface MPYUMIInterstitialCustomEvent() <YumiMediationInterstitialDelegate>
 
