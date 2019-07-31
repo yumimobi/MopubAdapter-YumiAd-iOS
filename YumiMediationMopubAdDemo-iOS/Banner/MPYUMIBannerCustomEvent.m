@@ -7,7 +7,7 @@
 //
 
 #import "MPYUMIBannerCustomEvent.h"
-#import <YumiAdSDK//YumiMediationBannerView.h>
+#import <YumiAdSDK/YumiMediationBannerView.h>
 
 @interface MPYUMIBannerCustomEvent() <YumiMediationBannerViewDelegate>
 
@@ -31,9 +31,7 @@
     
     [self.bannerView loadAd:NO];
 }
-- (BOOL)enableAutomaticImpressionAndClickTracking{
-    return YES;
-}
+
 #pragma YumiMediationBannerViewDelegate
 
 - (void)yumiMediationBannerViewDidLoad:(YumiMediationBannerView *)adView{
@@ -53,5 +51,9 @@
     if ([self.delegate respondsToSelector:@selector(bannerCustomEventDidFinishAction:)]) {
         [self.delegate bannerCustomEventDidFinishAction:self];
     }
+}
+
+- (void)didDisplayAd {
+    [self.bannerView trackImpressionEventByOutsider];
 }
 @end
