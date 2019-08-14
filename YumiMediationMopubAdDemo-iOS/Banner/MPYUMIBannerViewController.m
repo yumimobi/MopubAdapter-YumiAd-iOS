@@ -42,8 +42,12 @@
     if (!self.adView) {
         self.adView = [[MPAdView alloc] initWithAdUnitId:@"d9a95ca52ff84244af8398592ecf1623"];
         self.adView.delegate = self;
+        self.adView.frame = CGRectMake((self.view.bounds.size.width - 320) / 2,
+                                       self.view.bounds.size.height - 50 - 34,
+                                       320, 50);
+        [self.view addSubview:self.adView];
     }
-   
+    // banner auto refresh
     [self.adView loadAd];
 }
 #pragma mark - <MPAdViewDelegate>
@@ -52,10 +56,7 @@
 }
 - (void)adViewDidLoadAd:(MPAdView *)view adSize:(CGSize)adSize {
     [self addLog:@"adViewDidLoadAd"];
-    self.adView.frame = CGRectMake((self.view.bounds.size.width - adSize.width) / 2,
-                                   self.view.bounds.size.height - adSize.height - 34,
-                                   adSize.width, adSize.height);
-    [self.view addSubview:self.adView];
+   
 }
 - (void)adView:(MPAdView *)view didFailToLoadAdWithError:(NSError *)error{
     
