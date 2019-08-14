@@ -22,27 +22,38 @@
     NSString *placementId =  [info objectForKey:@"placementId"];
     NSString *channelId =  [info objectForKey:@"channelId"];
     NSString *versionId =  [info objectForKey:@"versionId"];
-    
-    self.bannerView = [[YumiMediationBannerView alloc] initWithPlacementID:placementId channelID:channelId versionID:versionId position:YumiMediationBannerPositionBottom rootViewController:[self.delegate viewControllerForPresentingModalView]];
-    
-    [self.bannerView disableAutoRefresh];
-    self.bannerView.isIntegrated = YES;
-    self.bannerView.delegate = self;
-    
-    [self.bannerView loadAd:NO];
+    // use main thread
+    __weak typeof(self) weakSelf = self;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        weakSelf.bannerView = [[YumiMediationBannerView alloc] initWithPlacementID:placementId channelID:channelId versionID:versionId position:YumiMediationBannerPositionBottom rootViewController:[weakSelf.delegate viewControllerForPresentingModalView]];
+        
+        [weakSelf.bannerView disableAutoRefresh];
+        weakSelf.bannerView.isIntegrated = YES;
+        weakSelf.bannerView.delegate = weakSelf;
+        
+        [weakSelf.bannerView loadAd:NO];
+    });
+   
 }
 
 #pragma YumiMediationBannerViewDelegate
 
 - (void)yumiMediationBannerViewDidLoad:(YumiMediationBannerView *)adView{
-    if ([self.delegate respondsToSelector:@selector(bannerCustomEvent:didLoadAd:)]) {
-        [self.delegate bannerCustomEvent:self didLoadAd:adView];
-    }
+    __weak typeof(self) weakSelf = self;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if ([weakSelf.delegate respondsToSelector:@selector(bannerCustomEvent:didLoadAd:)]) {
+            [weakSelf.delegate bannerCustomEvent:weakSelf didLoadAd:adView];
+        }
+    });
 }
 - (void)yumiMediationBannerView:(YumiMediationBannerView *)adView didFailWithError:(YumiMediationError *)error{
-    if ([self.delegate respondsToSelector:@selector(bannerCustomEvent:didFailToLoadAdWithError:)]) {
-        [self.delegate bannerCustomEvent:self didFailToLoadAdWithError:error];
-    }
+    __weak typeof(self) weakSelf = self;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if ([weakSelf.delegate respondsToSelector:@selector(bannerCustomEvent:didFailToLoadAdWithError:)]) {
+            [weakSelf.delegate bannerCustomEvent:weakSelf didFailToLoadAdWithError:error];
+        }
+    });
+   
 }
 - (void)yumiMediationBannerViewDidClick:(YumiMediationBannerView *)adView{
     if ([self.delegate respondsToSelector:@selector(bannerCustomEventWillBeginAction:)]) {
