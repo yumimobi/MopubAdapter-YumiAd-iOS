@@ -110,7 +110,7 @@ After the installation is complete, open the .xcworkspace file in the project ro
 
 Mopub，Manually of Integration Guide  [Mopub Integration Guide ](https://developers.mopub.com/publishers/ios/getting-started/#step-1-download-the-mopub-ios-sdk) 
 
-YumiAdSDK，Manually of Integration Guide [YumiAdSDK Integration Guide](https://github.com/yumimobi/YumiAdSDKDemo-iOS/blob/master/normalDocuments/YumiAdSDK%20for%20iOS(zh-cn).md#%E6%8E%A5%E5%85%A5%E6%96%B9%E5%BC%8F)
+YumiAdSDK，Manually of Integration Guide [YumiAdSDK Integration Guide](https://github.com/yumimobi/YumiAdSDKDemo-iOS/blob/master/normalDocuments/YumiAdSDK%20for%20iOS(en).md)
 
 ### 3.2  Add YumiAdSDK adapter
 
@@ -118,26 +118,26 @@ Add the following files to the project:
 
 #### 3.2.1 Banner adapter
 
-[MPYUMIBannerCustomEvent.h](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Banner/MPYUMIBannerCustomEvent.h)
+[MPYUMIBannerCustomEvent.h](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Banner/MPYUMIBannerCustomEvent.h)
 
-[MPYUMIBannerCustomEvent.m](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Banner/MPYUMIBannerCustomEvent.m)
+[MPYUMIBannerCustomEvent.m](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Banner/MPYUMIBannerCustomEvent.m)
 
 #### 3.2.2 Interstitial adapter
 
-[MPYUMIInterstitialCustomEvent.h](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Interstitial/MPYUMIInterstitialCustomEvent.h)
+[MPYUMIInterstitialCustomEvent.h](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Interstitial/MPYUMIInterstitialCustomEvent.h)
 
-[MPYUMIInterstitialCustomEvent.m](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Interstitial/MPYUMIInterstitialCustomEvent.m)
+[MPYUMIInterstitialCustomEvent.m](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Interstitial/MPYUMIInterstitialCustomEvent.m)
 
 #### 3.2.3 Rewarded Video adapter
 
-[MPYUMIRewardedVideoCustomEvent.h](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Reward%20Video/MPYUMIRewardedVideoCustomEvent.h)
+[MPYUMIRewardedVideoCustomEvent.h](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Reward%20Video/MPYUMIRewardedVideoCustomEvent.h)
 
-[MPYUMIRewardedVideoCustomEvent.m](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Reward%20Video/MPYUMIRewardedVideoCustomEvent.m)
+[MPYUMIRewardedVideoCustomEvent.m](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Reward%20Video/MPYUMIRewardedVideoCustomEvent.m)
 
 
 ### 3.3 Demo 
 
-[GET Demo](https://github.com/yumimobi/YumiMediationMopubAdDemo-iOS)
+[GET Demo](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS)
 
 > Note: Before executing the demo,execute the following commands in the Xcode project directory
 >
