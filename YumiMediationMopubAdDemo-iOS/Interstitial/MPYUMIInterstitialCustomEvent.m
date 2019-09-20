@@ -22,13 +22,13 @@
     NSString *channelId =  [info objectForKey:@"channelId"];
     NSString *versionId =  [info objectForKey:@"versionId"];
     
-    self.interstitial = [[YumiMediationInterstitial alloc] initWithPlacementID:placementId channelID:channelId versionID:versionId rootViewController:nil];
+    self.interstitial = [[YumiMediationInterstitial alloc] initWithPlacementID:placementId channelID:channelId versionID:versionId];
     self.interstitial.delegate = self;
 }
 
 - (void)showInterstitialFromRootViewController:(UIViewController *)rootViewController{
     if ([self.interstitial isReady]) {
-        [self.interstitial present];
+        [self.interstitial presentFromRootViewController:nil];
     }
 }
 - (BOOL)enableAutomaticImpressionAndClickTracking{
