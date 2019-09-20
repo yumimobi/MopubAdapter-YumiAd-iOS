@@ -25,6 +25,9 @@
     // use main thread
     __weak typeof(self) weakSelf = self;
     dispatch_async(dispatch_get_main_queue(), ^{
+        if (weakSelf.bannerView) {
+            weakSelf.bannerView = nil;
+        }
         weakSelf.bannerView = [[YumiMediationBannerView alloc] initWithPlacementID:placementId channelID:channelId versionID:versionId position:YumiMediationBannerPositionBottom rootViewController:[weakSelf.delegate viewControllerForPresentingModalView]];
         
         [weakSelf.bannerView disableAutoRefresh];

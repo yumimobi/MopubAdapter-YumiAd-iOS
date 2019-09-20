@@ -44,4 +44,32 @@ platform :ios do
       notes: ENV["TRAVIS_COMMIT_MESSAGE"],
     )
   end
+
+  desc "Submit a new Beta Build to App Center"
+  lane :pushToAppCenter do
+    xcversion(version: "10.2")
+
+    # Build
+    gym(
+      scheme: "YumiMediationMopubAdDemo-iOS",
+      workspace: "YumiMediationMopubAdDemo-iOS.xcworkspace",
+      configuration: "Release",
+      clean: true,
+      include_bitcode: false,
+      include_symbols: true,
+      export_method: "enterprise",
+    )
+
+    # push to App Center
+    appcenter_upload(
+      api_token: "432d532f9c8d234a64d9ffc626d81ba5f9646dae",
+      owner_name: "YumiSDK",
+      app_name: "MopubAdapter-YumiAd-iOS",
+      ipa: "YumiMediationMopubAdDemo-iOS.ipa",
+      dsym: "YumiMediationMopubAdDemo-iOS.app.dSYM.zip",
+      release_notes: '',
+      notify_testers: true # Set to false if you don't want to notify testers of your new release (default: `false`)
+  )
+  end
+
 end
