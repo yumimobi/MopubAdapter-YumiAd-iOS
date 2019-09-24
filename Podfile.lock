@@ -19,12 +19,11 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - mopub-ios-sdk
-  https://github.com/yumimobi/Specs.git:
     - YumiAdSDK
 
 SPEC CHECKSUMS:
   mopub-ios-sdk: b63e15803e70b92d0b51c3e1c49bbcd78cd3d1d5
-  YumiAdSDK: cfea827078921f7c8f062c6e584732474410b28a
+  YumiAdSDK: 7e093d8f374d8e25e4e4273f7caea5571f0b85d2
 
 PODFILE CHECKSUM: 058dec89e8b35b80f8a5ae337d76ab85bd53ddb2
 
