@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35571EEB41A4C304786F3F9B /* libPods-YumiMediationMopubAdDemo-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA65DD39D5B57D71BF5289C /* libPods-YumiMediationMopubAdDemo-iOS.a */; };
+		0255A8FFC4DD22AFA6EABB8C /* Pods_YumiMediationMopubAdDemo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82B945D2172E9A5CE9BEC8D /* Pods_YumiMediationMopubAdDemo_iOS.framework */; };
 		6DE9488E2228DB86002EE0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9488C2228DB86002EE0CE /* Main.storyboard */; };
 		6DE948912228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9488F2228DB86002EE0CE /* YumiMediationMopubAdDemo_iOS.xcdatamodeld */; };
 		6DE948932228DB88002EE0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE948922228DB88002EE0CE /* Assets.xcassets */; };
@@ -49,7 +49,7 @@
 		6DE948C1222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPYUMIRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
 		6DE948C2222CF6E5002EE0CE /* MPYUMIRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPYUMIRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
 		BEAA85BAFA315B39C87D7EEC /* Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		EBA65DD39D5B57D71BF5289C /* libPods-YumiMediationMopubAdDemo-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YumiMediationMopubAdDemo-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82B945D2172E9A5CE9BEC8D /* Pods_YumiMediationMopubAdDemo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YumiMediationMopubAdDemo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35571EEB41A4C304786F3F9B /* libPods-YumiMediationMopubAdDemo-iOS.a in Frameworks */,
+				0255A8FFC4DD22AFA6EABB8C /* Pods_YumiMediationMopubAdDemo_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +155,7 @@
 		CE3D9B2D00D1927057F33271 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EBA65DD39D5B57D71BF5289C /* libPods-YumiMediationMopubAdDemo-iOS.a */,
+				E82B945D2172E9A5CE9BEC8D /* Pods_YumiMediationMopubAdDemo_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,6 +172,7 @@
 				6DE948802228DB86002EE0CE /* Frameworks */,
 				6DE948812228DB86002EE0CE /* Resources */,
 				28AD3185B73DA7573098B2D5 /* [CP] Copy Pods Resources */,
+				B96728C3237AE205B2D77EA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,6 +245,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B96728C3237AE205B2D77EA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D32F09ECB3CCA909FBD98F48 /* [CP] Check Pods Manifest.lock */ = {
@@ -430,7 +448,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 201909201707;
-				DEVELOPMENT_TEAM = VG25A6M88T;
+				DEVELOPMENT_TEAM = QX37QM2334;
 				INFOPLIST_FILE = "YumiMediationMopubAdDemo-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,7 +458,7 @@
 				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zplay.popstar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = wanghaiyingDev;
+				PROVISIONING_PROFILE_SPECIFIER = zplay;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
