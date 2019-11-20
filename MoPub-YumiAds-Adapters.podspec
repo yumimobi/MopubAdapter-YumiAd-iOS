@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/yumimobi"
   s.description = "Yumi Ads SDK provides a better ad format for monetizing."
   s.source = { :git => 'https://github.com/yumimobi/MopubAdapter-YumiAd-iOS.git', :tag => s.version.to_s}
-  s.source_files = 'MopubAdapters/**/*.{h,m}'
+  s.source_files = 'YumiMediationMopubAdDemo-iOS/MopubAdapters/**/*.{h,m}'
   s.ios.deployment_target = '9.0'
   s.dependency 'YumiAdSDK', '~> 4.4.1.000'
   s.dependency 'mopub-ios-sdk'
