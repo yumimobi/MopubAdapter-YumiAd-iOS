@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.dependency 'YumiAdSDK', '~> 4.4.1.000'
   s.dependency 'mopub-ios-sdk'
-
+  s.static_framework = true
 end
