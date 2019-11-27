@@ -17,7 +17,7 @@
 
 @implementation MPYUMIRewardedVideoCustomEvent
 
--(void)requestRewardedVideoWithCustomEventInfo:(NSDictionary *)info{
+-(void)requestRewardedVideoWithCustomEventInfo:(NSDictionary *)info adMarkup:(NSString *)adMarkup{
     NSString *placementId =  [info objectForKey:@"placementId"];
     NSString *channelId =  [info objectForKey:@"channelId"];
     NSString *versionId =  [info objectForKey:@"versionId"];
