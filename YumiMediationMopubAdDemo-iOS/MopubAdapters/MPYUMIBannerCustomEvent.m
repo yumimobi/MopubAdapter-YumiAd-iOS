@@ -17,7 +17,7 @@
 
 @implementation MPYUMIBannerCustomEvent
 
-- (void)requestAdWithSize:(CGSize)size customEventInfo:(NSDictionary *)info{
+- (void)requestAdWithSize:(CGSize)size customEventInfo:(NSDictionary *)info adMarkup:(NSString *)adMarkup{
     
     NSString *placementId =  [info objectForKey:@"placementId"];
     NSString *channelId =  [info objectForKey:@"channelId"];
