@@ -10,26 +10,26 @@ PODS:
     - mopub-ios-sdk/Avid
     - mopub-ios-sdk/Core
     - mopub-ios-sdk/Moat
-  - MoPub-YumiAds-Adapters (4.4.1.000):
+  - MoPub-YumiAds-Adapters (4.3.4.200):
     - mopub-ios-sdk
-    - YumiAdSDK (~> 4.4.1.000)
-  - YumiAdSDK (4.4.1.000)
+    - YumiAdSDK (~> 4.3.4.200)
+  - YumiAdSDK (4.3.4.200)
 
 DEPENDENCIES:
-  - MoPub-YumiAds-Adapters (= 4.4.1.000)
+  - MoPub-YumiAds-Adapters (= 4.3.4.200)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - mopub-ios-sdk
+    - YumiAdSDK
   https://github.com/yumimobi/Specs.git:
     - MoPub-YumiAds-Adapters
-    - YumiAdSDK
 
 SPEC CHECKSUMS:
   mopub-ios-sdk: 3d65133b95b6498aa871a66818a11a5ba307e565
-  MoPub-YumiAds-Adapters: aa90585600e681bea36f2a9962a8fea1c2ad2e51
-  YumiAdSDK: f3024fd4d2909073e9db330319ad2193d248235e
+  MoPub-YumiAds-Adapters: 5adf42d95abcb6beb124495fe04449588895826a
+  YumiAdSDK: daef8bf140fda4e1eb0dc8573180e1212a0c9417
 
-PODFILE CHECKSUM: 1c11ca4381abef300f2f2d952f7c8c0c7d8893b1
+PODFILE CHECKSUM: 6a8d4247009da694155fd9894e0cefe6bc35cfe0
 
 COCOAPODS: 1.8.4
