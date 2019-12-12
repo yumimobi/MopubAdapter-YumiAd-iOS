@@ -1,4 +1,7 @@
 PODS:
+  - MoPub-AtmosplayAds-Adapters (2.6.0):
+    - mopub-ios-sdk
+    - PlayableAds (~> 2.6.0)
   - mopub-ios-sdk (5.10.0):
     - mopub-ios-sdk/MoPubSDK (= 5.10.0)
   - mopub-ios-sdk/Avid (5.10.0):
@@ -13,23 +16,29 @@ PODS:
   - MoPub-YumiAds-Adapters (4.5.0.000):
     - mopub-ios-sdk
     - YumiAdSDK (~> 4.5.0.000)
+  - PlayableAds (2.6.0)
   - YumiAdSDK (4.5.0.000)
 
 DEPENDENCIES:
+  - MoPub-AtmosplayAds-Adapters (= 2.6.0)
   - MoPub-YumiAds-Adapters (= 4.5.0.000)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - MoPub-AtmosplayAds-Adapters
     - mopub-ios-sdk
+    - PlayableAds
   https://github.com/yumimobi/Specs.git:
     - MoPub-YumiAds-Adapters
     - YumiAdSDK
 
 SPEC CHECKSUMS:
+  MoPub-AtmosplayAds-Adapters: 34068ee205deaa797bd4cdbef9d187a86bb69e0b
   mopub-ios-sdk: 3d65133b95b6498aa871a66818a11a5ba307e565
   MoPub-YumiAds-Adapters: 2f4852a6266d3ea21e3e0db02129ab976c40fcf5
-  YumiAdSDK: baec8c9f56f52c7196839fbda17560eb02997803
+  PlayableAds: ceb019c73d7a00b371412b0324a2f0907002ec99
+  YumiAdSDK: 6874e7cc0ca8e405e1298e81ac0663d2f195fc9a
 
-PODFILE CHECKSUM: d83dd58f182745d86ea93548cd53ce2f52e88c5e
+PODFILE CHECKSUM: cfac303d649c2959762ea2eaa652ba9ab32e6bfb
 
 COCOAPODS: 1.8.4
