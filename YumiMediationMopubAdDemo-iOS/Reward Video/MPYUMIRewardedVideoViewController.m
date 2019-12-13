@@ -9,7 +9,7 @@
 #import "MPYUMIRewardedVideoViewController.h"
 #import "MPRewardedVideo.h"
 
-static NSString *adUnitId = @"d37d2f16340a427db95abacc457ddaab";
+static NSString *adUnitId = @"5d7b48587bf54e52889e9901227b9498";
 
 @interface MPYUMIRewardedVideoViewController ()<MPRewardedVideoDelegate>
 

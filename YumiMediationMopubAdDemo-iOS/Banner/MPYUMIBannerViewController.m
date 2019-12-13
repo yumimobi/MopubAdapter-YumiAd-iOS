@@ -40,7 +40,7 @@
 
 - (IBAction)handleRequest:(UIButton *)sender {
     if (!self.adView) {
-        self.adView = [[MPAdView alloc] initWithAdUnitId:@"d9a95ca52ff84244af8398592ecf1623"];
+        self.adView = [[MPAdView alloc] initWithAdUnitId:@"5511406f038c4123a5a67529541fadb4"];
         self.adView.delegate = self;
         self.adView.frame = CGRectMake((self.view.bounds.size.width - 320) / 2,
                                        self.view.bounds.size.height - 50 - 34,

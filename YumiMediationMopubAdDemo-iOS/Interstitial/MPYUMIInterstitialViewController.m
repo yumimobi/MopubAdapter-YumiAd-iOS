@@ -40,7 +40,7 @@
 - (IBAction)handleRequestInterstitial:(UIButton *)sender {
     // Instantiate the interstitial using the class convenience method.
     self.interstitial = [MPInterstitialAdController
-                         interstitialAdControllerForAdUnitId:@"d925e06e15dc4e648bb21635639ec340"];
+                         interstitialAdControllerForAdUnitId:@"cf7e855e27a24f46aaaf244af31d41aa"];
     
     self.interstitial.delegate = self;
     
