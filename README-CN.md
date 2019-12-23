@@ -117,21 +117,21 @@ YumiAdSDK，详见参考文档的手动集成方式 [YumiAdSDK文档](https://gi
 
 #### 3.2.1 Banner adapter
 
-[MPYUMIBannerCustomEvent.h](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Banner/MPYUMIBannerCustomEvent.h)
+[MPYUMIBannerCustomEvent.h](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/MopubAdapters/MPYUMIBannerCustomEvent.h)
 
-[MPYUMIBannerCustomEvent.m](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Banner/MPYUMIBannerCustomEvent.m)
+[MPYUMIBannerCustomEvent.m](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/MopubAdapters/MPYUMIBannerCustomEvent.m)
 
 #### 3.2.2 Interstitial adapter
 
-[MPYUMIInterstitialCustomEvent.h](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Interstitial/MPYUMIInterstitialCustomEvent.h)
+[MPYUMIInterstitialCustomEvent.h](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/MopubAdapters/MPYUMIInterstitialCustomEvent.h)
 
-[MPYUMIInterstitialCustomEvent.m](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Interstitial/MPYUMIInterstitialCustomEvent.m)
+[MPYUMIInterstitialCustomEvent.m](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/MopubAdapters/MPYUMIInterstitialCustomEvent.m)
 
 #### 3.2.3 Rewarded Video adapter
 
-[MPYUMIRewardedVideoCustomEvent.h](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Reward%20Video/MPYUMIRewardedVideoCustomEvent.h)
+[MPYUMIRewardedVideoCustomEvent.h](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/MopubAdapters/MPYUMIRewardedVideoCustomEvent.h)
 
-[MPYUMIRewardedVideoCustomEvent.m](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/Reward%20Video/MPYUMIRewardedVideoCustomEvent.m)
+[MPYUMIRewardedVideoCustomEvent.m](https://github.com/yumimobi/MopubAdapter-YumiAd-iOS/blob/master/YumiMediationMopubAdDemo-iOS/MopubAdapters/MPYUMIRewardedVideoCustomEvent.m)
 
 
 ### 3.3 Demo 示例
