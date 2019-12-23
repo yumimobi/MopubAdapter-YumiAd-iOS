@@ -88,12 +88,11 @@ specify it in your Podfile:
 
 ```objective-c
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
+platform :ios, '9.0'
 use_frameworks!
 
 target 'MyApp' do
-    pod 'mopub-ios-sdk'
-    pod 'YumiAdSDK'
+    pod 'MoPub-YumiAds-Adapters'
 end 
 ```
 
