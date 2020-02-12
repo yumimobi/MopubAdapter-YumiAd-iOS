@@ -157,7 +157,7 @@
 				6DE948802228DB86002EE0CE /* Frameworks */,
 				6DE948812228DB86002EE0CE /* Resources */,
 				62E159DE201EDD8E6EE0349B /* [CP] Embed Pods Frameworks */,
-				C4037F8CD41B233CE58EFC65 /* [CP] Copy Pods Resources */,
+				7473664AA6E96A5F8DBB3D21 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +232,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C4037F8CD41B233CE58EFC65 /* [CP] Copy Pods Resources */ = {
+		7473664AA6E96A5F8DBB3D21 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
