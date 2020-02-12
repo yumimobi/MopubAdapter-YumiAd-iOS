@@ -157,7 +157,7 @@
 				6DE948802228DB86002EE0CE /* Frameworks */,
 				6DE948812228DB86002EE0CE /* Resources */,
 				62E159DE201EDD8E6EE0349B /* [CP] Embed Pods Frameworks */,
-				7473664AA6E96A5F8DBB3D21 /* [CP] Copy Pods Resources */,
+				2CAC1DFA9370C53839E095D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +215,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2CAC1DFA9370C53839E095D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		62E159DE201EDD8E6EE0349B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,23 +247,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7473664AA6E96A5F8DBB3D21 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YumiMediationMopubAdDemo-iOS/Pods-YumiMediationMopubAdDemo-iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D32F09ECB3CCA909FBD98F48 /* [CP] Check Pods Manifest.lock */ = {
