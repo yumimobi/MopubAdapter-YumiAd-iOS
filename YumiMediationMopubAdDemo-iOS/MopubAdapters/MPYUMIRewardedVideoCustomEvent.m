@@ -7,7 +7,7 @@
 //
 
 #import "MPYUMIRewardedVideoCustomEvent.h"
-#import <YumiAdSDK/YumiMediationVideo.h>
+#import <YumiMediationSDK/YumiMediationVideo.h>
 
 @interface MPYUMIRewardedVideoCustomEvent() <YumiMediationVideoDelegate>
 
@@ -22,10 +22,8 @@
     NSString *channelId =  [info objectForKey:@"channelId"];
     NSString *versionId =  [info objectForKey:@"versionId"];
     
-    self.rewardedVideo = [YumiMediationVideo sharedInstance];
+    self.rewardedVideo = [[YumiMediationVideo alloc] initByOtherMediation];
     self.rewardedVideo.delegate = self;
-    // set coreLogicInstance state is init
-    [[self.rewardedVideo valueForKey:@"coreLogicInstance"] setValue:@(0) forKey:@"state"];
     
     [self.rewardedVideo loadAdWithPlacementID:placementId channelID:channelId versionID:versionId];
 }
