@@ -1,5 +1,4 @@
 PODS:
-  - AtmosplayAds (3.0.1)
   - mopub-ios-sdk (5.8.0):
     - mopub-ios-sdk/MoPubSDK (= 5.8.0)
   - mopub-ios-sdk/Avid (5.8.0):
@@ -15,13 +14,13 @@ PODS:
     - mopub-ios-sdk
     - YumiAdSDK (= 4.5.1.000)
   - YumiAdSDK (4.5.1.000):
-    - AtmosplayAds
-    - YumiBaidu
-    - YumiBytedanceAds
-    - YumiGDT
-  - YumiBaidu (4.6.7)
+    - YumiMediationAdapterBytedance (= 4.5.1)
+    - YumiMediationSDK (= 4.5.1)
   - YumiBytedanceAds (2.7.5.2)
-  - YumiGDT (4.11.3)
+  - YumiMediationAdapterBytedance (4.5.1):
+    - YumiBytedanceAds (= 2.7.5.2)
+    - YumiMediationSDK (~> 4.5.0)
+  - YumiMediationSDK (4.5.1)
 
 DEPENDENCIES:
   - mopub-ios-sdk
@@ -29,23 +28,21 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - AtmosplayAds
     - mopub-ios-sdk
-    - YumiBaidu
     - YumiBytedanceAds
-    - YumiGDT
   https://github.com/yumimobi/Specs.git:
     - MoPub-YumiAds-Adapters
     - YumiAdSDK
+    - YumiMediationAdapterBytedance
+    - YumiMediationSDK
 
 SPEC CHECKSUMS:
-  AtmosplayAds: 53c615a931c2b5d7df046adbb137172b88dcbc37
   mopub-ios-sdk: b63e15803e70b92d0b51c3e1c49bbcd78cd3d1d5
   MoPub-YumiAds-Adapters: b90476322cf7f15c4bf8c871702a02a7cede7e83
-  YumiAdSDK: 66848b072c42ebe4aba98d1e7b26858a13dd726d
-  YumiBaidu: 83b9a91eeb3ad2d48b85fde5ace93beb6730a7d5
+  YumiAdSDK: 974434ff428c2bc26bf2b7a259ce104c459a6178
   YumiBytedanceAds: 70d9fd9051b8ef81fca1df39b025a357766989a8
-  YumiGDT: 26de8b0ebd5e546f44b7367af6ccf44a380c9f47
+  YumiMediationAdapterBytedance: 37f67100afe2f670e26c63aa23baf2dfdc600a05
+  YumiMediationSDK: 5d936916fcc2570bca4970461e4e7212c97b6fc4
 
 PODFILE CHECKSUM: 4e63b745f53a99d124e6f751d9afe14331ffdcd9
 
