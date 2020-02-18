@@ -24,6 +24,7 @@
     
     self.interstitial = [[YumiMediationInterstitial alloc] initWithPlacementID:placementId channelID:channelId versionID:versionId];
     self.interstitial.delegate = self;
+    self.interstitial.initByOtherMediation = YES;
 }
 
 - (void)showInterstitialFromRootViewController:(UIViewController *)rootViewController{
