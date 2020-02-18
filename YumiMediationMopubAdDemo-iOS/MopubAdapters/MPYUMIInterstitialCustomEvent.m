@@ -22,9 +22,8 @@
     NSString *channelId =  [info objectForKey:@"channelId"];
     NSString *versionId =  [info objectForKey:@"versionId"];
     
-    self.interstitial = [[YumiMediationInterstitial alloc] initWithPlacementID:placementId channelID:channelId versionID:versionId];
+    self.interstitial = [[YumiMediationInterstitial alloc] initWithPlacementID:placementId channelID:channelId versionID:versionId byOtherMediation:YES];
     self.interstitial.delegate = self;
-    self.interstitial.initByOtherMediation = YES;
 }
 
 - (void)showInterstitialFromRootViewController:(UIViewController *)rootViewController{
