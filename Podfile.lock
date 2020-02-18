@@ -42,7 +42,7 @@ SPEC CHECKSUMS:
   YumiAdSDK: 974434ff428c2bc26bf2b7a259ce104c459a6178
   YumiBytedanceAds: 70d9fd9051b8ef81fca1df39b025a357766989a8
   YumiMediationAdapterBytedance: 37f67100afe2f670e26c63aa23baf2dfdc600a05
-  YumiMediationSDK: 5d936916fcc2570bca4970461e4e7212c97b6fc4
+  YumiMediationSDK: a1faebce23a116a0755d59cfed69d888aa95bb37
 
 PODFILE CHECKSUM: 4e63b745f53a99d124e6f751d9afe14331ffdcd9
 
