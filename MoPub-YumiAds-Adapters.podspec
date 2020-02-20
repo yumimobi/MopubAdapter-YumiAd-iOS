@@ -9,7 +9,11 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/yumimobi/MopubAdapter-YumiAd-iOS.git', :tag => s.version.to_s}
   s.source_files = 'YumiMediationMopubAdDemo-iOS/MopubAdapters/**/*.{h,m}'
   s.ios.deployment_target = '8.0'
-  s.dependency 'YumiAdSDK', '~> 4.5.1.000'
+  s.dependency 'YumiAdSDK', '4.5.1.000'
   s.dependency 'mopub-ios-sdk'
   s.static_framework = true
+  valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
+  s.xcconfig = { 
+    'VALID_ARCHS' =>  valid_archs.join(' '),
+  }
 end
