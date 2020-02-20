@@ -27,23 +27,22 @@ DEPENDENCIES:
   - MoPub-YumiAds-Adapters (= 4.5.1.000)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - mopub-ios-sdk
-    - YumiBytedanceAds
-  https://github.com/yumimobi/Specs.git:
     - MoPub-YumiAds-Adapters
     - YumiAdSDK
+    - YumiBytedanceAds
     - YumiMediationAdapterBytedance
     - YumiMediationSDK
 
 SPEC CHECKSUMS:
   mopub-ios-sdk: b63e15803e70b92d0b51c3e1c49bbcd78cd3d1d5
-  MoPub-YumiAds-Adapters: b90476322cf7f15c4bf8c871702a02a7cede7e83
-  YumiAdSDK: 974434ff428c2bc26bf2b7a259ce104c459a6178
+  MoPub-YumiAds-Adapters: 397fd88e279b2062eb3e3b55b981f9768ea409e3
+  YumiAdSDK: 963a32c86f1d306425db176a5052725fa78cc717
   YumiBytedanceAds: 70d9fd9051b8ef81fca1df39b025a357766989a8
-  YumiMediationAdapterBytedance: 37f67100afe2f670e26c63aa23baf2dfdc600a05
-  YumiMediationSDK: 577d553dfe1187228d4ffbd6e171b8bcaadb548c
+  YumiMediationAdapterBytedance: 30582359fb49b137eb093dad1068631c745e0f8f
+  YumiMediationSDK: 7c1a46b1a2f07570e01966ae2c340abd111e621e
 
-PODFILE CHECKSUM: 4e63b745f53a99d124e6f751d9afe14331ffdcd9
+PODFILE CHECKSUM: b5f7cc16716efa6e55f31cc6912491b9d16747d9
 
 COCOAPODS: 1.8.4

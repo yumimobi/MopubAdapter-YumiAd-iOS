@@ -1,6 +1,6 @@
 # Uncomment the next line to define a global platform for your project
 source 'https://cdn.cocoapods.org/'
-
+install! 'cocoapods', :deterministic_uuids => false
 platform :ios, '8.0'
 
 target 'YumiMediationMopubAdDemo-iOS' do
